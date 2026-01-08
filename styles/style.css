@@ -26,6 +26,7 @@ header, .header-nav, body
 /* navbar logo style */
 .logo-navbar {
     max-width: 139px;
+    
 }
 
 
@@ -59,4 +60,5 @@ header, .nav-menu, a {
     background-color: #ffffff;
     color: #000000;
     border: 1px solid #469165;
+    cursor: pointer;
 }
