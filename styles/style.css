@@ -6,7 +6,7 @@
 
 /* for applying inter font */
 header, .header-nav, body   
-.open-sans- {
+.open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -127,6 +127,6 @@ header, .nav-menu, a {
 
 /* hero section background image */
 .main-hero {
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     padding: 150px 0px 180px 0px;
 }
