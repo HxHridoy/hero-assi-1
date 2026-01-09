@@ -222,7 +222,7 @@ header, .nav-menu, a {
     padding-bottom: 16px;
 }
 
-.sub-brain-h2 {
+.sub-brain-h2,.early-h2 {
     font-size: 48px;
     font-weight: 700;
     line-height: 52px;
@@ -258,4 +258,29 @@ header, .nav-menu, a {
 
 .checkbox ul {
     list-style-type: none;
+}
+
+
+/* Early section start */
+.early-access-main {
+    padding-bottom: 120px;
+}
+
+.early-div {
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 10px;
+}
+
+.paragraph-5 {
+     color: #627382;
+    margin-top: 16px;
+}
+
+.paragraph-6 {
+    color: #627382;
+    margin-bottom: 22px;
 }
