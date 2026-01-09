@@ -26,7 +26,6 @@ header, .header-nav, body
 /* navbar logo style */
 .logo-navbar {
     max-width: 139px;
-    
 }
 
 
@@ -326,22 +325,21 @@ footer {
   justify-content: center;
   margin-top: 25px;
 }
-  .footer-line{
-  max-width: 1360px;
-  margin: 40px auto 18px;
-  border: none;
-  height: 1px;
-  background: rgba(255,255,255,0.18);
-}
 
 /* bottom text */
 .last-p {
   text-align: center;
   font-size: 14px;
   color: #ffffff;
-  margin-top: 40px;
+  margin-top: -20px;
+  
 }
 
 .horizontal-line {
-    margin-top: 60px;
+    margin: 60px;
+    border: none;
+    height: 1px;
+    max-width: 1360px;
+    margin: 60px auto;
+    background: rgba(255,255,255,0.18);
 }
