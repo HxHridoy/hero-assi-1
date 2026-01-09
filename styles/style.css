@@ -18,7 +18,7 @@ header, .header-nav, body
     max-width: 1360px;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 34px 0;
+    padding: 15px 0;
     align-items: center;
 }
 
@@ -61,4 +61,72 @@ header, .nav-menu, a {
     color: #000000;
     border: 1px solid #469165;
     cursor: pointer;
+}
+
+
+/* start hero section */
+.main-hero-div {
+    text-align: center;
+    max-width: 1360px;
+    margin: 0 auto;
+    max-width: 1360px;  
+}
+
+/* hero button 1 */
+.btn-2 {
+    padding: 8px 12px;
+    color: #469165;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+
+/* hero hidding style */
+#main-h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.location-color-h1 {
+    color: #469165;
+    text-transform: capitalize;
+}
+
+/* hero paragraph-1 */
+.paragraph-1 {
+    font-size: 18px;
+    font-weight: 400;
+    
+    color: #ffffff;
+    
+}
+
+/* hero button-3 */
+.btn-3 {
+    padding: 12px 16px;
+    color: #ffffff;
+    background-color: #ffffff00;
+    border: 1px solid #469165;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+.btn-3:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    transition-duration: 0.5ms;
+}
+
+
+.hero-buttons {
+    padding-top: 32px;
+}
+
+/* hero section background image */
+.main-hero {
+    background-image: url(/assets/hero-bg.png);
+    padding: 150px 0px 180px 0px;
 }
