@@ -196,3 +196,66 @@ header, .nav-menu, a {
     padding-top: 44px;
     gap: 20px;
 }
+
+
+/* main brain section start */
+.brain-section {
+    padding: 0 0 120px 0;
+}
+
+.main-brain-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.brain-image img {
+    width: 600px;
+    height: 600px;
+}
+
+.small-brain-h5 {
+    color: #469165;
+    padding-bottom: 16px;
+}
+
+.sub-brain-h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.paragraph-4 {
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+.for-checkbox-info {
+    padding: 0 50px; 
+  
+}
+
+.checkbox li::before {
+    content: "✓";
+    width: 18px;
+    height: 18px;
+    flex: 0 0 20px;
+    border-radius: 50%;
+    background:#469165;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 16px;
+    
+}
+
+.checkbox ul {
+    list-style-type: none;
+}
